@@ -24,21 +24,11 @@ h2{
     color: #841515;
 }
 ul{
-    background-color:#333;
-color: white;
-text-align: center;
-padding: 10px;
-width: 100%;
-bottom: 0;
-
+    
+    padding: 0;
 }
 ul li{
-background-color:#333;
-color: white;
-text-align: center;
-padding: 10px;
-width: 100%;
-bottom: 0;
+ padding: 0;
 }
 
 footer {
