@@ -1,13 +1,13 @@
 /*estilos para el encabezado*/
 header{
-    background-color: rgb(99, 17, 69);
+    background-color: rgb(127, 7, 7);
     padding: 20px;
     text-align: center;
-    color: rgb(238, 207, 223);
+    color: rgb(238, 207, 207);
 }
 /*estilos para la barra de navegacion*/
 nav a{
-    color: rgb(153, 86, 179);
+    color: rgb(179, 86, 86);
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
@@ -34,12 +34,12 @@ nav a:hover{
     line-height: 1.6;
 }
 footer{
-    background-color: #333;
+    background-color: #992e2e;
     color: white;
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
 }
 table{
-     background-color: rgb(225, 206, 217);
+     background-color: rgb(224, 190, 190);
 }
