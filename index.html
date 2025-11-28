@@ -3,46 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi pagina personal</title>
-    <link rel="stylesheet" href="style.css">
+    <title>entregable 2</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <!--Encabezado-->
     <header>
-        <h1>Dulce M. Martinez O.</h1>
+        <h1>¡Hola! Mi nombre es Dulce Martinez</h1>   
     </header>
-    <!--Seccion bliografica-->
-    <section>
-        <button onclick="mostarMensaje(Bienvenidos)">Bienvenidos!</button>
-        <h2>Biografia</h2>
-        <p>Soy una estudiante de Diseño Gráfico que también se está formando en programación, lo que me permite combinar la creatividad visual con el desarrollo tecnológico. Me apasiona crear piezas visuales claras y atractivas, y al mismo tiempo aprender a construir soluciones digitales funcionales. Mi objetivo es desarrollar proyectos que unan el diseño y la tecnología para ofrecer experiencias modernas, intuitivas y creativas. </p>
-    </section>
-    <!--Lista de habilidades-->
-    <section>
-        <h2>Habilidades Tecnicas</h2>
-        <ul>
-            <li>Dominio de Adobe Illustrator, Photoshop e InDesign.</li>
-            <li>Creación de identidad visual y diseño editorial.</li>
-            <li>Desarrollo web básico con HTML, CSS y JavaScript.</li>
-            <li>Manejo de herramientas de prototipado como Figma.</li>
-        </ul>
-    </section>
-    <!--Formulario de contacto-->
-    <section>
-        <h2>Contacto</h2>
-        <form action="">
-            <label>Nombre:</label>
-            <input type="text" id="nombre" name="nombre">
-            <label>correo electronico:</label>
-            <input type="email" id="email" name="email">
-            <br>
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
-    <!--Pie de pagina-->
-    <footer>
-        <p>contactame &copy - <a href="dulcemariaortizmartinez58@gmail.com">Dulce M. Martinez O.</a></p>
+    <nav>
+        <a href="#">inicio</a>
+        <a href="#">a cerca de</a>
+        <a href="#">productos</a>
+        <a href="#">contacto</a>
+    </nav>
+    <main>
+        <div>
+            <h2>Bienvenidos !!!</h2>
+            <p>Hola, mi nombre es Dulce Martinez, tengo 19 años y estoy aprendiendo a crear paginas web.
+por el momento utilizo etiquetas basicas de HTML, pero mas adelante mejorare mis paginas.</p>
+        </div>
+        <div>
+            <h2>A cerca de</h2>
+            <p>Si buscas a alguien creativo y dedicado ¡soy la persona adecuada!</p>
+        </div>
+    </main>
+
+        <h2>Tareas pendientes</h2>
+<ol>
+	<li>Limpiar el baño</li>
+	<li>Terminar una pintura</li>
+	<li>Bañar al perro</li>
+</ol>
+<h2>Pasatiempos</h2>
+<ul>
+	<li>Pintar</li>
+	<li>Escuchar musica</li>
+	<li>Bailar</li>
+</ul>
+<br><br>
+<h1>Tabla con tareas</h1>
+	<table border="1">
+		<tr>
+			<th>Lunes</th>
+			<th>Martes</th>
+			<th>Miercoles</th>
+			<th>Jueves</th>
+			<th>Viernes</th>
+			<th>Sabado</th>
+			<th>Domingo</th>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Bañar al perro</td>
+			<td></td>
+			<td>Limpiar el baño</td>
+			<td></td>
+			<td>Terminar mi pintura</td>
+			<td></td>
+		</tr>
+		
+     </table>
+     <br><br>
+     <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formularios</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Formulario de Contacto</h1>
+	<form>
+		<label>*Nombre:</label>
+		<input type="text" name="Nombre" required>
+		<label>*Correo Electronico</label>
+		<input type="email" name="email" required>
+		<label>*Ingrese su contraseña</label>
+		<input type="password" name="" required minlength="8">
+		<label>Celular</label>
+		<input type="tel" name="cel" maxlength="10">
+		<label>Mensaje:</label>
+		<textarea id="mensaje" rows="4"></textarea>
+		<label>Pais:</label>
+		<select required>
+			<option value="" disabled="" selected>*Selecciona tu pais</option>
+			<option value="co">Colombia</option>
+			<option value="es">España</option>
+			<option value="mx">Mexico</option>
+			<option value="ar">Argentina</option>
+
+		</select>
+		<input type="submit" name="" value="Enviar">
+		<p>* Campo requerido...</p>
+	</form>
+</div>
+</body>
+
+<br><br><br>
+<footer>
+<hr>
+<h2>Contacto</h2>
+<p>Puedes contactarme en <a href="dulcemariaortizmartinez58@gmail.com">Mi pagina web</a> </p>
+<br><br>
+        <p>
+            &copy; 2025 mi pagina web
+        </p>
     </footer>
-    <script src="script.js"></script>
+    
 </body>
 </html>
